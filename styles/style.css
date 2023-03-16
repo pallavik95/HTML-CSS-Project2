@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    
+}
+body{
+   
+    height: 100%;
+    width: 100%;
+    margin: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+.menu-bar{
+    display: flex;
+    /* align-content: space-around; */
+    width: 100%;
+    padding: 10px 20px;
+    gap: 60px;
+}
+.menu-bar img{
+    width: 100;
+}
+.menu-bar ul{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    width: 30%;
+    margin-right: 40%;
+    padding: 20px;
+    /* gap: 10px; */
+}
+.menu-bar ul li{
+    list-style: none;
+    /* justify-content: space-around; */
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color: black;
+    /* margin-right: 20%; */
+    
+}
+.btn{
+    float: right;
+    background-color: #323287;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5%;
+    border: none;
+    cursor: pointer;
+    
+    /* margin: 20%; */
+}
+button{
+    background-color: #323287;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 6%;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+}
+/* mainsection */
+section{
+display: flex;
+margin-left: 20px;
+}
+/* left section */
+.left-section{
+    width: 40%;
+    padding-top: 12%;
+}
+.left-section h1{
+    font-size: 40px;
+    font-weight: 300;
+    padding-bottom: 20px;
+    font-family: 'Domine', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Tilt Warp', cursive;
+}
+.left-section h1 span{
+    color: rgb(69, 69, 132);
+}
+.left-section p{
+    padding-bottom: 30px;
+}
+.right-section{
+    width: 60%;
+}
+.right-section img{
+    height: 90%;
+    width: 90%;
+   
+}
